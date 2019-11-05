@@ -8,23 +8,23 @@
 
 import Foundation
 
-print("Hello, World!")
-
-class Human {
-    var human: Human?
-
-    deinit {
-        print("KILLED")
-    }
-}
-
-var obj1: Human? = Human()
-var obj2: Human? = obj1
-obj2?.human = obj1
-obj1?.human = obj2
-
-obj1 = nil
-obj2 = nil // 0
+//print("Hello, World!")
+//
+//class Human {
+//    var human: Human?
+//
+//    deinit {
+//        print("KILLED")
+//    }
+//}
+//
+//var obj1: Human? = Human()
+//var obj2: Human? = obj1
+//obj2?.human = obj1
+//obj1?.human = obj2
+//
+//obj1 = nil
+//obj2 = nil // 0
 
 // ----------------------
 
